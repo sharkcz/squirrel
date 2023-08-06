@@ -68,7 +68,7 @@ if(NOT SQ_DISABLE_INSTALLER AND NOT SQ_DISABLE_HEADER_INSTALLER)
   install(FILES
     include/sqconfig.h
     include/squirrel.h
-    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/squirrel
     COMPONENT Development
     )
   install(FILES
@@ -78,7 +78,7 @@ if(NOT SQ_DISABLE_INSTALLER AND NOT SQ_DISABLE_HEADER_INSTALLER)
     include/sqstdmath.h
     include/sqstdstring.h
     include/sqstdsystem.h
-    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
+    DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}/squirrel
     COMPONENT Development
     )
 endif()
